@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FEB5CA2BA9EDC000D80011 /* I_TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5C92BA9EDC000D80011 /* I_TalkApp.swift */; };
+		91FEB5CC2BA9EDC000D80011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5CB2BA9EDC000D80011 /* ContentView.swift */; };
+		91FEB5CE2BA9EDC100D80011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FEB5CD2BA9EDC100D80011 /* Assets.xcassets */; };
+		91FEB5D12BA9EDC100D80011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FEB5D02BA9EDC100D80011 /* Preview Assets.xcassets */; };
+		91FEB5DB2BA9EDC100D80011 /* I_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5DA2BA9EDC100D80011 /* I_TalkTests.swift */; };
+		91FEB5E52BA9EDC100D80011 /* I_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5E42BA9EDC100D80011 /* I_TalkUITests.swift */; };
+		91FEB5E72BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5E62BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FEB5D72BA9EDC100D80011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FEB5BE2BA9EDC000D80011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FEB5C52BA9EDC000D80011;
+			remoteInfo = "I-Talk";
+		};
+		91FEB5E12BA9EDC100D80011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FEB5BE2BA9EDC000D80011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FEB5C52BA9EDC000D80011;
+			remoteInfo = "I-Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FEB5C62BA9EDC000D80011 /* I-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FEB5C92BA9EDC000D80011 /* I_TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkApp.swift; sourceTree = "<group>"; };
+		91FEB5CB2BA9EDC000D80011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91FEB5CD2BA9EDC100D80011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FEB5D02BA9EDC100D80011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91FEB5D62BA9EDC100D80011 /* I-TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FEB5DA2BA9EDC100D80011 /* I_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkTests.swift; sourceTree = "<group>"; };
+		91FEB5E02BA9EDC100D80011 /* I-TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FEB5E42BA9EDC100D80011 /* I_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkUITests.swift; sourceTree = "<group>"; };
+		91FEB5E62BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FEB5C32BA9EDC000D80011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5D32BA9EDC100D80011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5DD2BA9EDC100D80011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FEB5BD2BA9EDC000D80011 = {
+			isa = PBXGroup;
+			children = (
+				91FEB5C82BA9EDC000D80011 /* I-Talk */,
+				91FEB5D92BA9EDC100D80011 /* I-TalkTests */,
+				91FEB5E32BA9EDC100D80011 /* I-TalkUITests */,
+				91FEB5C72BA9EDC000D80011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FEB5C72BA9EDC000D80011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FEB5C62BA9EDC000D80011 /* I-Talk.app */,
+				91FEB5D62BA9EDC100D80011 /* I-TalkTests.xctest */,
+				91FEB5E02BA9EDC100D80011 /* I-TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FEB5C82BA9EDC000D80011 /* I-Talk */ = {
+			isa = PBXGroup;
+			children = (
+				91FEB5C92BA9EDC000D80011 /* I_TalkApp.swift */,
+				91FEB5CB2BA9EDC000D80011 /* ContentView.swift */,
+				91FEB5CD2BA9EDC100D80011 /* Assets.xcassets */,
+				91FEB5CF2BA9EDC100D80011 /* Preview Content */,
+			);
+			path = "I-Talk";
+			sourceTree = "<group>";
+		};
+		91FEB5CF2BA9EDC100D80011 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91FEB5D02BA9EDC100D80011 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91FEB5D92BA9EDC100D80011 /* I-TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FEB5DA2BA9EDC100D80011 /* I_TalkTests.swift */,
+			);
+			path = "I-TalkTests";
+			sourceTree = "<group>";
+		};
+		91FEB5E32BA9EDC100D80011 /* I-TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FEB5E42BA9EDC100D80011 /* I_TalkUITests.swift */,
+				91FEB5E62BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift */,
+			);
+			path = "I-TalkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FEB5C52BA9EDC000D80011 /* I-Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FEB5EA2BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-Talk" */;
+			buildPhases = (
+				91FEB5C22BA9EDC000D80011 /* Sources */,
+				91FEB5C32BA9EDC000D80011 /* Frameworks */,
+				91FEB5C42BA9EDC000D80011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I-Talk";
+			productName = "I-Talk";
+			productReference = 91FEB5C62BA9EDC000D80011 /* I-Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FEB5D52BA9EDC100D80011 /* I-TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FEB5ED2BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-TalkTests" */;
+			buildPhases = (
+				91FEB5D22BA9EDC100D80011 /* Sources */,
+				91FEB5D32BA9EDC100D80011 /* Frameworks */,
+				91FEB5D42BA9EDC100D80011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FEB5D82BA9EDC100D80011 /* PBXTargetDependency */,
+			);
+			name = "I-TalkTests";
+			productName = "I-TalkTests";
+			productReference = 91FEB5D62BA9EDC100D80011 /* I-TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FEB5DF2BA9EDC100D80011 /* I-TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FEB5F02BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-TalkUITests" */;
+			buildPhases = (
+				91FEB5DC2BA9EDC100D80011 /* Sources */,
+				91FEB5DD2BA9EDC100D80011 /* Frameworks */,
+				91FEB5DE2BA9EDC100D80011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FEB5E22BA9EDC100D80011 /* PBXTargetDependency */,
+			);
+			name = "I-TalkUITests";
+			productName = "I-TalkUITests";
+			productReference = 91FEB5E02BA9EDC100D80011 /* I-TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FEB5BE2BA9EDC000D80011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					91FEB5C52BA9EDC000D80011 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					91FEB5D52BA9EDC100D80011 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 91FEB5C52BA9EDC000D80011;
+					};
+					91FEB5DF2BA9EDC100D80011 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 91FEB5C52BA9EDC000D80011;
+					};
+				};
+			};
+			buildConfigurationList = 91FEB5C12BA9EDC000D80011 /* Build configuration list for PBXProject "I-Talk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FEB5BD2BA9EDC000D80011;
+			productRefGroup = 91FEB5C72BA9EDC000D80011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FEB5C52BA9EDC000D80011 /* I-Talk */,
+				91FEB5D52BA9EDC100D80011 /* I-TalkTests */,
+				91FEB5DF2BA9EDC100D80011 /* I-TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FEB5C42BA9EDC000D80011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FEB5D12BA9EDC100D80011 /* Preview Assets.xcassets in Resources */,
+				91FEB5CE2BA9EDC100D80011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5D42BA9EDC100D80011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5DE2BA9EDC100D80011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FEB5C22BA9EDC000D80011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FEB5CC2BA9EDC000D80011 /* ContentView.swift in Sources */,
+				91FEB5CA2BA9EDC000D80011 /* I_TalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5D22BA9EDC100D80011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FEB5DB2BA9EDC100D80011 /* I_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FEB5DC2BA9EDC100D80011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FEB5E72BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift in Sources */,
+				91FEB5E52BA9EDC100D80011 /* I_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FEB5D82BA9EDC100D80011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FEB5C52BA9EDC000D80011 /* I-Talk */;
+			targetProxy = 91FEB5D72BA9EDC100D80011 /* PBXContainerItemProxy */;
+		};
+		91FEB5E22BA9EDC100D80011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FEB5C52BA9EDC000D80011 /* I-Talk */;
+			targetProxy = 91FEB5E12BA9EDC100D80011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91FEB5E82BA9EDC100D80011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FEB5E92BA9EDC100D80011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FEB5EB2BA9EDC100D80011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"I-Talk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FEB5EC2BA9EDC100D80011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"I-Talk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91FEB5EE2BA9EDC100D80011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-Talk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I-Talk";
+			};
+			name = Debug;
+		};
+		91FEB5EF2BA9EDC100D80011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-Talk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I-Talk";
+			};
+			name = Release;
+		};
+		91FEB5F12BA9EDC100D80011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I-Talk";
+			};
+			name = Debug;
+		};
+		91FEB5F22BA9EDC100D80011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I-Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FEB5C12BA9EDC000D80011 /* Build configuration list for PBXProject "I-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FEB5E82BA9EDC100D80011 /* Debug */,
+				91FEB5E92BA9EDC100D80011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FEB5EA2BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FEB5EB2BA9EDC100D80011 /* Debug */,
+				91FEB5EC2BA9EDC100D80011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FEB5ED2BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FEB5EE2BA9EDC100D80011 /* Debug */,
+				91FEB5EF2BA9EDC100D80011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FEB5F02BA9EDC100D80011 /* Build configuration list for PBXNativeTarget "I-TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FEB5F12BA9EDC100D80011 /* Debug */,
+				91FEB5F22BA9EDC100D80011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FEB5BE2BA9EDC000D80011 /* Project object */;
+}
