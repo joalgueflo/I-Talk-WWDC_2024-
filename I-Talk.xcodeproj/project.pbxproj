@@ -14,6 +14,17 @@
 		91FEB5DB2BA9EDC100D80011 /* I_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5DA2BA9EDC100D80011 /* I_TalkTests.swift */; };
 		91FEB5E52BA9EDC100D80011 /* I_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5E42BA9EDC100D80011 /* I_TalkUITests.swift */; };
 		91FEB5E72BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5E62BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift */; };
+		91FEB5F42BA9FFA800D80011 /* alphabetPract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5F32BA9FFA800D80011 /* alphabetPract.swift */; };
+		91FEB5F62BAA023300D80011 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5F52BAA023300D80011 /* MainMenu.swift */; };
+		91FEB5F82BAA025F00D80011 /* MainMenu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5F72BAA025F00D80011 /* MainMenu2.swift */; };
+		91FEB5FA2BAA028600D80011 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5F92BAA028600D80011 /* Modal.swift */; };
+		91FEB5FC2BAA02B500D80011 /* WordsAndEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5FB2BAA02B500D80011 /* WordsAndEmoji.swift */; };
+		91FEB5FE2BAA036200D80011 /* Pract1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5FD2BAA036200D80011 /* Pract1.swift */; };
+		91FEB6002BAA03B600D80011 /* Pract2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB5FF2BAA03B600D80011 /* Pract2.swift */; };
+		91FEB6022BAA054C00D80011 /* Pract3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB6012BAA054C00D80011 /* Pract3.swift */; };
+		91FEB6042BAA055800D80011 /* Pract4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB6032BAA055800D80011 /* Pract4.swift */; };
+		91FEB6062BAA056300D80011 /* Pract5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB6052BAA056300D80011 /* Pract5.swift */; };
+		91FEB6082BAA056C00D80011 /* Pract6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB6072BAA056C00D80011 /* Pract6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		91FEB5E02BA9EDC100D80011 /* I-TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FEB5E42BA9EDC100D80011 /* I_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkUITests.swift; sourceTree = "<group>"; };
 		91FEB5E62BA9EDC100D80011 /* I_TalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91FEB5F32BA9FFA800D80011 /* alphabetPract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alphabetPract.swift; sourceTree = "<group>"; };
+		91FEB5F52BAA023300D80011 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		91FEB5F72BAA025F00D80011 /* MainMenu2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu2.swift; sourceTree = "<group>"; };
+		91FEB5F92BAA028600D80011 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		91FEB5FB2BAA02B500D80011 /* WordsAndEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsAndEmoji.swift; sourceTree = "<group>"; };
+		91FEB5FD2BAA036200D80011 /* Pract1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract1.swift; sourceTree = "<group>"; };
+		91FEB5FF2BAA03B600D80011 /* Pract2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract2.swift; sourceTree = "<group>"; };
+		91FEB6012BAA054C00D80011 /* Pract3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract3.swift; sourceTree = "<group>"; };
+		91FEB6032BAA055800D80011 /* Pract4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract4.swift; sourceTree = "<group>"; };
+		91FEB6052BAA056300D80011 /* Pract5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract5.swift; sourceTree = "<group>"; };
+		91FEB6072BAA056C00D80011 /* Pract6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,17 @@
 			isa = PBXGroup;
 			children = (
 				91FEB5C92BA9EDC000D80011 /* I_TalkApp.swift */,
+				91FEB5F52BAA023300D80011 /* MainMenu.swift */,
+				91FEB5F32BA9FFA800D80011 /* alphabetPract.swift */,
+				91FEB5F72BAA025F00D80011 /* MainMenu2.swift */,
+				91FEB5F92BAA028600D80011 /* Modal.swift */,
+				91FEB5FB2BAA02B500D80011 /* WordsAndEmoji.swift */,
+				91FEB5FD2BAA036200D80011 /* Pract1.swift */,
+				91FEB5FF2BAA03B600D80011 /* Pract2.swift */,
+				91FEB6012BAA054C00D80011 /* Pract3.swift */,
+				91FEB6032BAA055800D80011 /* Pract4.swift */,
+				91FEB6052BAA056300D80011 /* Pract5.swift */,
+				91FEB6072BAA056C00D80011 /* Pract6.swift */,
 				91FEB5CB2BA9EDC000D80011 /* ContentView.swift */,
 				91FEB5CD2BA9EDC100D80011 /* Assets.xcassets */,
 				91FEB5CF2BA9EDC100D80011 /* Preview Content */,
@@ -257,8 +290,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FEB5F82BAA025F00D80011 /* MainMenu2.swift in Sources */,
+				91FEB5FC2BAA02B500D80011 /* WordsAndEmoji.swift in Sources */,
+				91FEB5FE2BAA036200D80011 /* Pract1.swift in Sources */,
+				91FEB5FA2BAA028600D80011 /* Modal.swift in Sources */,
+				91FEB6082BAA056C00D80011 /* Pract6.swift in Sources */,
+				91FEB6022BAA054C00D80011 /* Pract3.swift in Sources */,
+				91FEB6042BAA055800D80011 /* Pract4.swift in Sources */,
+				91FEB6062BAA056300D80011 /* Pract5.swift in Sources */,
 				91FEB5CC2BA9EDC000D80011 /* ContentView.swift in Sources */,
+				91FEB5F42BA9FFA800D80011 /* alphabetPract.swift in Sources */,
+				91FEB6002BAA03B600D80011 /* Pract2.swift in Sources */,
 				91FEB5CA2BA9EDC000D80011 /* I_TalkApp.swift in Sources */,
+				91FEB5F62BAA023300D80011 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
